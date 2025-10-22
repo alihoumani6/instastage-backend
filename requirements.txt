@@ -1,22 +1,9 @@
-# ---- Web/API ----
-fastapi==0.115.2
-starlette==0.40.0
-uvicorn[standard]==0.30.6
-python-multipart==0.0.9
-
-# ---- Images ----
-Pillow==10.4.0
-
-# ---- Config / HTTP ----
-python-dotenv==1.0.1
-requests==2.32.3
-
-# ---- Optional used earlier ----
-anyio==4.11.0
-typing-extensions==4.15.0
-idna==3.11
-h11==0.16.0
-watchfiles==1.1.1
-
-# ---- Supabase ----
-supabase==2.6.0
+fastapi
+uvicorn
+pillow
+boto3
+python-multipart
+aiofiles
+python-dotenv
+requests
+openai
